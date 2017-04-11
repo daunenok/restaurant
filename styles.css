@@ -1,0 +1,71 @@
+html {
+	background: url("images/restaurant.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+body {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+h1 {
+	color: #fff;
+	text-align: right;
+	font: 500% 'Marko One', serif;
+	margin: 0 10%;
+}
+h2 {
+	color: #fff;
+	text-align: right;
+	font: 200% 'Spirax', cursive;
+	margin-right: 10%;
+}
+h3 {
+	font: 200% verdana, sans-serif;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+}
+h4 {
+	margin: 0;
+}
+.dishes {
+	width: 720px;
+	margin: 0 auto;
+	display: flex;	
+}
+.titles {
+	width: 140px;
+}
+h4 a {
+	display: block;
+	font: bold 100% 'Spirax', cursive;
+	background-color: #000;
+	padding: 10px;
+	border: 1px solid #fff;
+	border-right: 0;
+	border-radius: 5px 0 0 5px;
+}
+h4 a:hover, .active {
+	background-color: #fff;
+	color: #000;
+}
+.image {
+	background-color: #fff;
+	height: 410px;
+	width: 580px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0 5px 5px 5px;
+}
+.image img {
+	width: 560px;
+}
+.hidden {
+	display: none;
+}
